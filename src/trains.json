@@ -1,0 +1,95 @@
+{
+  "trains": [
+    {
+      "id": 1,
+      "routes": [
+        {
+          "destination": "Astana",
+          "arrivalTime": "14:20",
+          "departureTime": "14:50",
+          "breakTime": 30
+        },
+        {
+          "destination": "Almaty",
+          "arrivalTime": "19:00",
+          "departureTime": "19:40",
+          "breakTime": 40
+        },
+        {
+          "destination": "Shymkent",
+          "arrivalTime": "08:15",
+          "departureTime": "08:40",
+          "breakTime": 25
+        }
+      ],
+      "vagons": [
+        {
+          "type": "kupe",
+          "roomsAmount": 5,
+          "roomCapacity": 4
+        },
+        {
+          "type": "kupe",
+          "roomsAmount": 5,
+          "roomCapacity": 4
+        },
+        {
+          "type": "kupe",
+          "roomsAmount": 5,
+          "roomCapacity": 4
+        },
+        {
+          "type": "sitting",
+          "benches": 20,
+          "benchCapacity": 4
+        },
+        {
+          "type": "sitting",
+          "benches": 20,
+          "benchCapacity": 4
+        },
+        {
+          "type": "sitting",
+          "benches": 20,
+          "benchCapacity": 4
+        }
+      ],
+      "type": "common"
+    },
+    {
+      "id": 2,
+      "routes": [
+        {
+          "destination": "Almaty",
+          "arrivalTime": "19:00",
+          "departureTime": "19:40",
+          "breakTime": 40
+        },
+        {
+          "destination": "Shymkent",
+          "arrivalTime": "08:15",
+          "departureTime": "08:40",
+          "breakTime": 25
+        }
+      ],
+      "vagons": [
+        {
+          "type": "kupe",
+          "roomsAmount": 5,
+          "roomCapacity": 4
+        },
+        {
+          "type": "kupe",
+          "roomsAmount": 5,
+          "roomCapacity": 4
+        },
+        {
+          "type": "sitting",
+          "benches": 20,
+          "benchCapacity": 4
+        }
+      ],
+      "type": "common"
+    }
+  ]
+}
